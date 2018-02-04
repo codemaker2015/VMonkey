@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="codemaker2015@gmail.com"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android1:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+<TextView 
+    android1:id="@+id/TextView01" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android1:text="@string/txt_help_dialog_0" 
+    android:layout_margin="50dp"></TextView>
+<TextView android1:id="@+id/TextView02" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android1:text="@string/txt_server_url" 
+    android:layout_margin="5dp" 
+    android1:textColor="#6666FF">
+    
+</TextView>
+<TextView android1:id="@+id/TextView03" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_margin="5dp" 
+    android1:text="@string/txt_help_dialog_1">
+    
+</TextView>
+<Button android1:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android1:id="@+id/btnCloseHelp" 
+    android1:text="@string/txt_close" 
+    android:layout_gravity="center_horizontal" 
+    android1:width="100dp">
+    
+</Button>
+
+
+</LinearLayout>
